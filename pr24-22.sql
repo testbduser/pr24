@@ -1,0 +1,2 @@
+REFRESH MATERIALIZED VIEW fn_view;
+SELECT * FROM fn_view;

@@ -1,0 +1,5 @@
+CREATE MATERIALIZED VIEW fn_view AS SELECT * FROM fn_file WHERE x > 10.0 WITH NO DATA;
+SELECT * FROM fn_view;
+\dE
+\dv
+\dm

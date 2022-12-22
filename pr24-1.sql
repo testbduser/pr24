@@ -1,0 +1,4 @@
+DROP TABLE fn CASCADE;
+CREATE TABLE fn (x FLOAT, y FLOAT);
+\dt
+\d fn

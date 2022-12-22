@@ -1,0 +1,2 @@
+DELETE FROM fn;
+INSERT INTO fn SELECT * FROM fn_backup;
